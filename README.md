@@ -30,13 +30,13 @@ myKey对象包括了公钥与私钥：
 console.log('Public key:', myKey.getPublic('hex'));
 console.log('Private key:', myKey.getPrivate('hex'));
 ```
-建立Blockchain实例
+## 建立Blockchain实例
 ```javascript
 const {Blockchain, Transaction} = require('savjeecoin');
 
 const myChain = new Blockchain();
 ```
-添加交易
+## 添加交易
 ```javascript
 //从“我的钱包”转出100个比特币到toAddress
 const tx = new Transaction(myKey.getPublic('hex'), 'toAddress', 100);
