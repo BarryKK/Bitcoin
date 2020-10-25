@@ -1,21 +1,6 @@
-
-<p align="center"> 
-  <img src="https://user-images.githubusercontent.com/19600132/72232345-8dc85000-35fb-11ea-9b3c-b385c18406cf.jpg">
-</p>
-
 # BitCoin
 
-> 此项目用于学习基本区块链知识，Javascript练习以及翻译练习  <br /> 
 > 原文地址：https://github.com/Savjee/SavjeeCoin#create-a-blockchain-instance
-
-## 特性
-* 区块链核实（验证最长链，防止私自更改）
-* 生成钱包
-* 交易签署 （生成私钥/公钥）
-
-## library
-* elliptic -  生成用户私钥/公钥
-* crypto-js - 使用SHA256算法加密交易记录
 
 ## 生成密钥对
 crypto-js库可以使用户创建自己的公钥与私钥，公钥就成为了用户的交易地址，私钥用于加密交易。
